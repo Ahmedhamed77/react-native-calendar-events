@@ -48,7 +48,7 @@ public class RNCalendarEventsModuleImpl {
     private static final String RNC_PREFS = "REACT_NATIVE_CALENDAR_PREFERENCES";
     private static final HashMap<Integer, Promise> permissionsPromises = new HashMap<>();
 
-    public RNCalendarEvents(ReactApplicationContext reactContext) {
+    public RNCalendarEventsModuleImpl(ReactApplicationContext reactContext) {
         super(reactContext);
         this.reactContext = reactContext;
     }
