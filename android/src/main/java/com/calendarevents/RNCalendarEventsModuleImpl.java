@@ -53,6 +53,12 @@ public class RNCalendarEventsModuleImpl {
         this.reactContext = reactContext;
     }
 
+
+    @Override
+    public String getName() {
+        return NAME;
+    }
+
     // region Calendar Permissions
     private void requestCalendarPermission(boolean limited, final Promise promise) {
         Activity currentActivity = this.reactContext.getCurrentActivity();
